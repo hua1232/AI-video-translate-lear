@@ -23,7 +23,7 @@ PROCESSED_FOLDER = "./processed_videos"
 OUTPUT_FOLDER ="./output_files"
 
 # 2. 翻译 API
-SILICONFLOW_API_KEY = "sk-cgzltmbcjlnqhunrznvxhemvwywanpikoaweeuhhcitdzhbr"
+SILICONFLOW_API_KEY = "sk-*************************"
 MODEL_TRANSLATE = "Qwen/Qwen2.5-7B-Instruct"
 
 # 3. Whisper 设置
@@ -359,4 +359,5 @@ if __name__ == "__main__":
             while True: time.sleep(1)
         except KeyboardInterrupt:
             observer.stop()
+
         observer.join()
